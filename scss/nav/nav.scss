@@ -1,0 +1,15 @@
+nav{
+    height: 50px;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 2px solid black;
+
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+
+}

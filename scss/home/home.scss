@@ -1,0 +1,85 @@
+.homeHero{
+    width: 50%;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url(../images/home-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.aboutHero{
+        width: 50%;
+        height: 500px;
+        margin: 0 auto;
+        background-image: url(../images/about.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 50px;
+        margin-bottom: 50px;
+}
+
+.productsHero{
+    width: 50%;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url(../images/blog.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.homeHeader{
+    width: 50%;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background-color: blue;
+
+    h1{
+        border-bottom: 2px solid black;
+    }
+}
+
+.homeText{
+    height: 300px;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    // background-color: aqua;
+    margin-top: 25px;
+
+    .home-text-left{
+        width: 45%;
+        height: 100%;
+        // background-color: green;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p{
+            text-align: center;
+        }
+
+    }
+    .home-text-right{
+        width: 45%;
+        height: 100%;
+        // background-color: green;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p{
+            text-align: center;
+        }
+    }
+}
